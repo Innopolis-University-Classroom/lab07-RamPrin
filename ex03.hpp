@@ -2,12 +2,12 @@
 #include <cmath>
 using namespace std;
 
-int main()
-{
-    double bill;
-    double tiptotal;
-    double total;
-    double tip;
+template<class T>
+T tip(){
+    T bill;
+    T tiptotal;
+    T total;
+    T tip;
 
     cout<<"\n\nWelcome to tip Calculator\n";
     cout <<"------------------------------\n";
@@ -39,5 +39,9 @@ int main()
         cout << "You are helping me through College!! Thankyou!!\n";
     }
 
+}
+
+int main()
+{
     return 0;
 }
